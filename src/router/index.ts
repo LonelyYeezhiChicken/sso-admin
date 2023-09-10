@@ -7,6 +7,11 @@ const routes = [
     name: RouterMap.Home.toString(),
     component: () => import("../views/Home.vue"),
   },
+  {
+    path: RouterMap.Login,
+    name: RouterMap.Login.toString(),
+    component: () => import("../views/Login.vue"),
+  },
 ];
 
 const router = createRouter({
