@@ -1,0 +1,11 @@
+html.dark {
+    --el-color-primary: #e412d8;
+
+    .el-card .el-card__header {
+        background-color: #d84bae;
+    }
+
+    .el-menu--horizontal.el-menu {
+        border-bottom: solid 1px #f866f7;
+    }
+  }

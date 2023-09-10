@@ -1,4 +1,4 @@
 export enum RouterMap {
   Home = "/",
-  Login = "/Login"
+  Login = "/Login",
 }

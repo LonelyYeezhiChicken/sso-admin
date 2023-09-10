@@ -1,13 +1,13 @@
 <template>
-  <el-row :gutter="20">
-    <el-col :span="12" :offset="6">
-      <el-card class="box-card">
+  <el-row :gutter="20" style="margin-top: 25vh">
+    <el-col :span="7" :offset="9">
+      <el-card class="box-card" shadow="always">
         <template #header>
           <div class="card-header">
-            <span>登入吧!</span>
+            <span><b> 登入吧! </b></span>
           </div>
         </template>
-        <el-form ref="ruleFormRef" :model="user" status-icon :rules="rules" label-width="120px" class="demo-ruleForm">
+        <el-form ref="ruleFormRef" :model="user" status-icon :rules="rules" label-width="10vh" class="demo-ruleForm">
           <el-form-item label="Name" prop="name">
             <el-input v-model="user.name" type="text" autocomplete="off" />
           </el-form-item>
